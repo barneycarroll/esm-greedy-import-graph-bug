@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+<head>
+  <title>ESM greedy import graph bug</title>
+</head>
+<body>
+  <script type=module>
+    import {A} from './many.js'
+
+    console.log('index.html effect:', {A})
+  </script>
+</body>
+</html>

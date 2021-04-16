@@ -1,0 +1,11 @@
+{
+  "name": "esm-greedy-import-graph-bug",
+  "module": "index.js",
+  "type": "module",
+  "scripts": {
+    "serve": "http-server -o index.html"
+  },
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}
